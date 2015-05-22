@@ -58,11 +58,11 @@
         $('#todayText').text(currentCondition);
 
         $('thead>tr>th:nth-child(1)').text(forecastInfo[0].date);
-        $('#forecastTemp>th:nth-child(1)').text(FtoC(forecastInfo[0].low) +'~'+ FtoC(forecastInfo[0].high) + "℃");
+        $('#forecastTemp>th:nth-child(1)').text(FtoC(forecastInfo[0].low) +'-'+ FtoC(forecastInfo[0].high) + "℃");
         $('thead>tr>th:nth-child(2)').text(forecastInfo[1].date);
-        $('#forecastTemp>th:nth-child(2)').text(FtoC(forecastInfo[1].low) +'~'+ FtoC(forecastInfo[1].high) + "℃");
+        $('#forecastTemp>th:nth-child(2)').text(FtoC(forecastInfo[1].low) +'-'+ FtoC(forecastInfo[1].high) + "℃");
         $('thead>tr>th:nth-child(3)').text(forecastInfo[2].date);
-        $('#forecastTemp>th:nth-child(3)').text(FtoC(forecastInfo[2].low) +'~'+ FtoC(forecastInfo[2].high) + "℃");
+        $('#forecastTemp>th:nth-child(3)').text(FtoC(forecastInfo[2].low) +'-'+ FtoC(forecastInfo[2].high) + "℃");
 
         chooseSkycons("today", currentCode);
         chooseSkycons("day1", forecastInfo[0].code);
