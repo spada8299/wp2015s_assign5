@@ -3,7 +3,7 @@
   var chooseSkycons = function (id, code) {
     if(code==="32" || code==="34" || code==="36"){
       skycons.set(id, "clear-day");
-    } else if(code==="9" || code==="10" || code==="11" || code==="12" || code==="40") {
+    } else if(code==="9" || code==="10" || code==="11" || code==="12" || code==="40" || code==="37" || code==="38" || code==="39") {
       skycons.set(id, "rain");
     } else if(code==="31" || code==="33"){
       skycons.set(id, "clear-night");
